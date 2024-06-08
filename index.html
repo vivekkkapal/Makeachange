@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coundown</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container{
+            height: 50vh;
+            width: 50vh;
+            display:grid;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid black;
+            padding: 50px;
+        }
+
+        h1{
+            font-size: 50px;
+        }
+
+        .timer{
+            margin: 30px;
+            font-size: 20px;
+            font-weight: bold
+        }
+        p{
+            margin: 40px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Milestone</h1>
+        <div class="timer" id="countdown"></div>
+        <p>Until 08/06/2026</p>
+    </div>
+
+    <script src="Script.js"></script>   
+</body>
+</html>
